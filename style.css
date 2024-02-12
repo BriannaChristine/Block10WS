@@ -1,0 +1,144 @@
+html body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+}
+
+.top {
+  display: flex;
+  flex-direction: row;
+}
+
+.square {
+  display: flex;
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+  background-color: #414361;
+  align-items: center;
+}
+
+#box-1 i {
+  color: #cf9893;
+  font-size: 60px;
+}
+
+.circle1 {
+  height: 25px;
+  width: 25px;
+  background-color: #cf9893;
+  border-radius: 50%;
+  position: absolute;
+  left: 5%;
+  top: 0%;
+  z-index: 2;
+}
+
+.circle2 {
+  height: 100px;
+  width: 100px;
+  background-color: #cf9893;
+  border-radius: 50%;
+  position: absolute;
+  left: 9%;
+  top: 8%;
+  z-index: 2;
+}
+
+.circle3 {
+  height: 125px;
+  width: 125px;
+  background-color: #cf9893;
+  border-radius: 50%;
+  position: absolute;
+  left: 14%;
+  top: 18%;
+  z-index: 2;
+}
+
+.circle4 {
+  height: 25px;
+  width: 25px;
+  background-color: #cf9893;
+  border-radius: 50%;
+  position: absolute;
+  left: 5%;
+  top: 21%;
+  z-index: 2;
+}
+
+.circle5 {
+  height: 25px;
+  width: 25px;
+  background-color: #cf9893;
+  border-radius: 50%;
+  position: absolute;
+  left: 26%;
+  top: 5%;
+  z-index: 2;
+}
+
+.circle6 {
+  height: 30px;
+  width: 30px;
+  background-color: #cf9893;
+  border-radius: 50%;
+  position: absolute;
+  left: 10%;
+  top: 35%;
+  z-index: 2;
+}
+
+.triangle-1 {
+  width: 0px;
+  height: 0px;
+  border-left: 75px solid transparent;
+  border-right: 75px solid transparent;
+  border-bottom: 150px solid #c5e6a6;
+  position: relative;
+  left: 90%;
+  top: 50%;
+  z-index: 3;
+}
+
+.triangle-2 {
+  width: 0px;
+  height: 0px;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-bottom: 150px solid darkgreen;
+  position: relative;
+  left: 50%;
+  top: 50%;
+}
+
+.ppl-container {
+  position: absolute;
+  left: 14%;
+  top: 46.5%;
+  font-size: 70px;
+  z-index: 6;
+}
+
+.bottom {
+  display: flex;
+  padding: 0px;
+  height: 300px;
+  margin-right: 171px;
+  margin-left: 11px;
+  background-color: #414361;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+}
